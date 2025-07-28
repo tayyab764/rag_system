@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAG with Gemini</title>
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <h1>Upload PDF</h1>
+    <form id="uploadForm">
+        <input type="file" name="file" required />
+        <button type="submit">Upload</button>
+    </form>
+
+    <h2>Ask a Question</h2>
+    <form id="questionForm">
+        <input type="text" name="question" placeholder="Ask something..." required />
+        <button type="submit">Ask</button>
+    </form>
+
+    <div id="answer"></div>
+</body>
+</html>
